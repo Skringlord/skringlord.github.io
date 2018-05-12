@@ -63,4 +63,7 @@
         margin-top: none;
         margin-bottom: none;
     }
+    .textPictures {
+        border-radius: 7px;
+    }
 }
