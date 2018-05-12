@@ -1,0 +1,185 @@
+.menuGrid {
+    display: grid;
+    grid-template-rows: 3em;
+    grid-template-columns: 0px repeat(7, minmax(5em, 1fr));
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    margin-top: -0.5em;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    grid-column-gap: 0.2em;
+    background: linear-gradient( to top, #FFFFFF, #F3F6F8);
+}
+.words {
+    margin: center;
+    font-size: 1em;
+    text-align: center;
+    color: #294056;
+}
+.menuButton {
+    font-size: 1.6em;
+    text-align: center;
+    color: #294056;
+    border-bottom: 2px solid #294056;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.menuButton:hover,
+.dropdown:hover {
+    color: white;
+    background-color: #294056;
+}
+.mobileMenu {
+    display: none;
+    grid-template-rows: 1fr;
+    text-align: center;
+    color: white;
+    border-radius: 7px;
+    background-color: #294056;
+    width: 100%;
+    grid-template-columns: 1fr repeat(auto-fit, 200px) 1fr;
+}
+.mobileMenu div:hover {
+    color: #294056;
+    background-color: white;
+}
+.mobileMenu div{
+    border-radius: 7px;
+    border: 1px solid #294056;
+}
+
+
+.dropdown {
+    font-size: 1.6em;
+    color: #294056;
+    text-align: center;
+    border-bottom: 2px solid #294056;
+    border-radius: 2px;
+}
+.dropdown .dropbtn {
+    color: wite;
+}
+.dropbtn:hover {
+    color: white;
+}
+.dropdown .dropbtn:hover {
+    color: white;
+}
+.dropdown-content {
+    display: none;
+    left: 0;
+    position: absolute;
+    margin-top: auto;
+    width: 100%;
+    font-size: 0.8em;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: 3em;
+    color: white;
+    background-color: #294056;
+}
+.dropdown-content a:hover {
+    color: #294056;
+    background-color: white;
+}
+.dropdown:hover .dropdown-content {
+    display: grid;
+}
+.textMenu {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+
+.bodyPic {
+    display: grid;
+    grid-template-rows: 660px;
+    grid-template-columns: 100%;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+.bodyCategory {
+    display: grid;
+    grid-template-rows: 10em 3em;
+    grid-template-columns: 1fr repeat(6, 10em) 1fr;
+    grid-column-gap: 1em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.bodyCategory div {
+    font-size: 1.1em;
+    text-align: center;
+    color: #294056;
+}
+.categoryPic {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.categoryPic:hover {
+    border-radius: 50px;
+    border: 2px solid #294056;
+}
+.textForTablets {
+    display: none;
+}
+
+
+.textPictures {
+    display: grid;
+    margin-top: 1em;
+    grid-template-rows: 490px;
+    grid-template-columns: 3fr 9fr;
+    background-color: #294056;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+}
+.slide{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slideText {
+    display: grid;
+    margin-top: 8em;
+    margin-bottom: 7em;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    color: white;
+}
+
+
+.toolsType {
+    margin-top: 1em;
+    display: grid;
+    grid-row-gap: 0.2em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    border-top: 3px solid #294056;
+    grid-column-gap: 0.5em;
+    grid-template-columns: 0.8fr 1.1fr 1fr 1.1fr 1.2fr 0.8fr;
+}
+.toolsCategory {
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+}
+.toolName {
+    margin-top: 1em;
+    margin-left: 1.2em;
+    background-color: white;
+    color: #294056;
+    text-align: left;
+}
+.toolsAll {
+    color: #294056;
+    margin-top: -1em;
+    text-align: left;
+    margin-bottom: 1em;
+}
