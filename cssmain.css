@@ -33,18 +33,19 @@
 .mobileMenu {
     display: none;
     grid-template-rows: 1fr;
+    grid-template-columns: 1fr repeat(auto-fit, 200px) 1fr;
     text-align: center;
-    color: white;
     border-radius: 7px;
     background-color: #294056;
     width: 100%;
-    grid-template-columns: 1fr repeat(auto-fit, 200px) 1fr;
 }
-.mobileMenu div:hover {
+.mobileMenu a:hover {
     color: #294056;
     background-color: white;
 }
-.mobileMenu div{
+.mobileMenu a{
+    color: white;
+    text-decoration: none;
     border-radius: 7px;
     border: 1px solid #294056;
 }
